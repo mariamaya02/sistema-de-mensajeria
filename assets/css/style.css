@@ -1,0 +1,187 @@
+body, menu, ul{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+}
+
+/* Right side css*/
+
+.welcome-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    min-width: 83vw;
+    min-height: 100vh;
+    justify-content: center;
+}
+.welcome-section img{
+    width: 220px;
+    height: 220px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.welcome-section h1{
+    font-size: 2.813rem;
+    font-family: 'Roboto', sans-serif;
+    color: #1b1f21;
+    padding-bottom: 5px;
+    margin: 0;
+}
+.welcome-section p{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #1b1f21;
+    margin: 0;
+}
+
+/* Left side css */
+
+aside{
+    min-width: 17vw;
+    min-height: 100vh;
+}
+/* header */
+.user{
+    display: flex;
+    justify-content: space-between;
+    min-height: 8vh;    
+    background-color: #ffffff;
+    border: #e8ebe4 1px solid;
+    height: auto;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    width: 50%;
+    font-size: 0.8rem;
+}
+.thumbnail1{
+    width: 30%;
+}
+.info{
+    width: 60%;
+}
+.profile img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: #e8ebe4 1px solid;
+}
+.info p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    width: 25%;
+    text-align: center;
+}
+.user-name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color:#1b1f21;
+}
+.status{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.625rem;
+    color: #BEC1BB;
+}
+.i1{
+    width: 50%;
+    color: #828485;
+}
+.i2{
+    width: 50%;
+    color: #828485;
+}
+.i1:hover{
+    cursor: pointer;
+}
+.i2:hover{
+    cursor: pointer;
+}
+.profile img:hover{
+    cursor: pointer;
+}
+/* new chat section */
+.nc-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 16vh;
+    border: #e8ebe4 1px solid;
+}
+button{
+    border-radius: 0%;
+    border: 0px;
+    color: #ffffff;
+    background-color: #a491d2;
+    width: 70%;
+    height: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: #cdc3e6;
+    cursor: pointer;
+}
+button:active{
+    background-color: #BEC1BB;
+}
+
+/* chat section */
+.chat{
+    display: flex;
+    height: 76vh;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.users{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.9rem;
+    background-color: #ffffff;
+    height: 9.5vh;
+    border: #e8ebe4 1px solid;
+    padding-left: 20px;
+}
+.photo{
+    width: 20%;
+}
+.name{
+    width: 70%;
+}
+.thumbnail2{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: #e8ebe4 1px solid;
+}
+.name p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.messages{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+    color:#1b1f21;
+}
+.users:hover{
+    background-color: #d4dcff;
+    cursor: pointer;
+}
+.users:active{
+    background-color: #BEC1BB;
+}
